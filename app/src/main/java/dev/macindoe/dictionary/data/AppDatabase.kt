@@ -17,7 +17,6 @@ abstract class AppDatabase : RoomDatabase() {
     companion object {
         private val DATABASE_NAME = "dict-db"
 
-        // Singleton instance. TODO: move to Dagger or Koin.
         @Volatile private var instance: AppDatabase? = null
 
         fun getInstance(context: Context): AppDatabase {

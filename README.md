@@ -5,5 +5,6 @@ Technologies used:
 - Jetpack Lifecycle
 - Room
 - Kotlin coroutines
+- Koin
 
 
