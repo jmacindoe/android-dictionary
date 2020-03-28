@@ -2,7 +2,7 @@ A playground for me to try out Android Jetpack components. The app is a basic Ch
 
 Technologies used:
 - Jetpack Navigation
-- Jetpack Lifecycle
+- Jetpack Lifecycle and ViewModel
 - Room
 - Kotlin coroutines
 - Koin

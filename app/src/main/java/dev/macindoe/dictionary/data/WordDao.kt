@@ -8,8 +8,8 @@ import androidx.room.Query
 
 @Dao
 interface WordDao {
-    @Query("SELECT * FROM words ORDER BY pinyin")
-    fun getWords(): LiveData<List<Word>>
+    @Query("SELECT * FROM words where pinyin like :query || '%' ORDER BY pinyin")
+    fun search(query: String): LiveData<List<Word>>
 
     @Query("SELECT * FROM words WHERE isFavorite = 1 ORDER BY pinyin")
     fun getFavoriteWords(): LiveData<List<Word>>
