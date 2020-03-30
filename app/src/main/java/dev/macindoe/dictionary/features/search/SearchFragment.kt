@@ -7,8 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.widget.addTextChangedListener
 import androidx.lifecycle.observe
-import androidx.navigation.fragment.findNavController
 import dev.macindoe.dictionary.R
+import dev.macindoe.dictionary.features.word.WordListAdapter
 import kotlinx.android.synthetic.main.fragment_search.*
 import org.koin.android.viewmodel.ext.android.viewModel
 
@@ -29,11 +29,26 @@ class SearchFragment : Fragment() {
             viewModel.updateSearchQuery(text.toString())
         }
 
-        val adapter = SearchAdapter()
+        val adapter = WordListAdapter()
         result_list.adapter = adapter
 
         viewModel.searchResults().observe(viewLifecycleOwner) { data ->
-            adapter.submitList(data)
+            if (data.isEmpty()) {
+                showEmptyState()
+            } else {
+                showResults()
+                adapter.submitList(data)
+            }
         }
+    }
+
+    private fun showEmptyState() {
+        empty_v.visibility = View.VISIBLE
+        result_list.visibility = View.GONE
+    }
+
+    private fun showResults() {
+        empty_v.visibility = View.GONE
+        result_list.visibility = View.VISIBLE
     }
 }

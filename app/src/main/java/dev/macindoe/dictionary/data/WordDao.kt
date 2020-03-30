@@ -19,4 +19,10 @@ interface WordDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertAll(words: List<Word>)
+
+    @Query("UPDATE words SET isFavorite = 1 WHERE id = :wordId")
+    suspend fun favoriteWord(wordId: String)
+
+    @Query("UPDATE words SET isFavorite = 0 WHERE id = :wordId")
+    suspend fun unfavoriteWord(wordId: String)
 }

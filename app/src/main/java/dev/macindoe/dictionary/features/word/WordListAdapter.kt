@@ -1,4 +1,4 @@
-package dev.macindoe.dictionary.features.search
+package dev.macindoe.dictionary.features.word
 
 import android.view.View
 import android.view.ViewGroup
@@ -7,11 +7,15 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import dev.macindoe.dictionary.data.Word
+import dev.macindoe.dictionary.features.search.SearchFragmentDirections
 
 
-class SearchAdapter : ListAdapter<Word, SearchAdapter.ViewHolder>(SearchDiffCallback()) {
+/// Adapter for a list of words. If [favoritesCallback] is specified, a button to unfavorite words is shown.
+class WordListAdapter(private val favoritesCallback: FavoritesCallback? = null) : ListAdapter<Word, WordListAdapter.ViewHolder>(
+    SearchDiffCallback()
+) {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        return ViewHolder(SearchResultView(parent.context))
+        return ViewHolder(WordListItemView(parent.context), favoritesCallback)
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
@@ -19,17 +23,21 @@ class SearchAdapter : ListAdapter<Word, SearchAdapter.ViewHolder>(SearchDiffCall
     }
 
     class ViewHolder(
-        private val view: SearchResultView
+        private val view: WordListItemView,
+        private val favoritesCallback: FavoritesCallback?
     ) : RecyclerView.ViewHolder(view) {
         fun bind(word: Word) {
-            view.bind(word)
+            view.bind(word, favoritesCallback)
             view.setOnClickListener {
                 navigateToDetails(word.id, view)
             }
         }
 
         private fun navigateToDetails(wordId: String, view: View) {
-            val action = SearchFragmentDirections.actionSearchFragmentToDefinitionFragment(wordId)
+            val action =
+                SearchFragmentDirections.actionSearchFragmentToDefinitionFragment(
+                    wordId
+                )
             view.findNavController().navigate(action)
         }
     }
@@ -43,4 +51,9 @@ private class SearchDiffCallback : DiffUtil.ItemCallback<Word>() {
     override fun areContentsTheSame(oldItem: Word, newItem: Word): Boolean {
         return oldItem == newItem
     }
+}
+
+interface FavoritesCallback {
+    fun favoriteWord(word: Word)
+    fun unfavoriteWord(word: Word)
 }
