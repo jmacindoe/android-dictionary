@@ -1,6 +1,7 @@
 package dev.macindoe.dictionary.data
 
 import android.content.Context
+import android.util.Log
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
 import com.google.gson.Gson

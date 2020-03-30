@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "0",
+    "english": "to love/to be fond of/to like/affection/to be inclined (to do sth)/to tend to (happen)",
+    "chinese": "爱",
+    "pinyin": "ai4",
+    "isFavorite": false
+  },
+  {
+    "id": "1",
+    "english": "eight/8",
+    "chinese": "八",
+    "pinyin": "ba1",
+    "isFavorite": false
+  },
+  {
+    "id": "2",
+    "english": "(informal) father/CL:個|个[ge4],位[wei4]",
+    "chinese": "爸爸",
+    "pinyin": "ba4 ba5",
+    "isFavorite": false
+  },
+  {
+    "id": "3",
+    "english": "cup/glass/CL:個|个[ge4],隻|只[zhi1]",
+    "chinese": "杯子",
+    "pinyin": "bei1 zi5",
+    "isFavorite": false
+  },
+  {
+    "id": "4",
+    "english": "Beijing, capital of People's Republic of China/Peking/PRC government",
+    "chinese": "北京",
+    "pinyin": "Bei3 jing1",
+    "isFavorite": false
+  },
+  {
+    "id": "5",
+    "english": "root/stem/origin/source/this/the current/original/inherent/originally/classifier for books, periodicals, files etc",
+    "chinese": "本",
+    "pinyin": "ben3",
+    "isFavorite": false
+  },
+  {
+    "id": "6",
+    "english": "(negative prefix)/not/no",
+    "chinese": "不",
+    "pinyin": "bu4",
+    "isFavorite": false
+  },
+  {
+    "id": "7",
+    "english": "you're welcome/don't mention it/impolite/rude/blunt",
+    "chinese": "不客气",
+    "pinyin": "bu4 ke4 qi5",
+    "isFavorite": false
+  },
+  {
+    "id": "8",
+    "english": "dish (type of food)/vegetable/cuisine/CL:盤|盘[pan2],道[dao4]/(coll.) (one's) type/(of one's skills etc) weak/poor",
+    "chinese": "菜",
+    "pinyin": "cai4",
+    "isFavorite": false
+  },
+  {
+    "id": "9",
+    "english": "tea/tea plant/CL:杯[bei1],壺|壶[hu2]",
+    "chinese": "茶",
+    "pinyin": "cha2",
+    "isFavorite": false
+  },
+  {
+    "id": "10",
+    "english": "to eat/to consume/to eat at (a cafeteria etc)/to eradicate/to destroy/to absorb/to suffer/to stammer (Taiwan pr. for this sense is [ji2])",
+    "chinese": "吃",
+    "pinyin": "chi1",
+    "isFavorite": false
+  },
+  {
+    "id": "11",
+    "english": "taxi/(Taiwan) rental car",
+    "chinese": "出租车",
+    "pinyin": "chu1 zu1 che1",
+    "isFavorite": false
+  },
+  {
+    "id": "12",
+    "english": "to make a telephone call",
+    "chinese": "打电话",
+    "pinyin": "da3 dian4 hua4",
+    "isFavorite": false
+  },
+  {
+    "id": "13",
+    "english": "big/huge/large/major/great/wide/deep/older (than)/oldest/eldest/greatly/very much/(dialect) father/father's elder or younger brother",
+    "chinese": "大",
+    "pinyin": "da4",
+    "isFavorite": false
+  },
+  {
+    "id": "14",
+    "english": "of/~'s (possessive particle)/(used after an attribute)/(used to form a nominal expression)/(used at the end of a declarative sentence for emphasis)",
+    "chinese": "的",
+    "pinyin": "de5",
+    "isFavorite": false
+  },
+  {
+    "id": "15",
+    "english": "point/dot/drop/speck/o'clock/point (in space or time)/to draw a dot/to check on a list/to choose/to order (food in a restaurant)/to touch briefly/to hint/to light/to ignite/to pour a liquid drop by drop/(old) one fifth of a two-hour watch 更[geng1]/dot stroke in Chinese characters/classifier for items",
+    "chinese": "点",
+    "pinyin": "dian3",
+    "isFavorite": false
+  },
+  {
+    "id": "16",
+    "english": "computer/CL:臺|台[tai2]",
+    "chinese": "电脑",
+    "pinyin": "dian4 nao3",
+    "isFavorite": false
+  },
+  {
+    "id": "17",
+    "english": "television/TV/CL:臺|台[tai2],個|个[ge4]",
+    "chinese": "电视",
+    "pinyin": "dian4 shi4",
+    "isFavorite": false
+  },
+  {
+    "id": "18",
+    "english": "movie/film/CL:部[bu4],片[pian4],幕[mu4],場|场[chang3]",
+    "chinese": "电影",
+    "pinyin": "dian4 ying3",
+    "isFavorite": false
+  },
+  {
+    "id": "19",
+    "english": "east and west",
+    "chinese": "东西",
+    "pinyin": "dong1 xi1",
+    "isFavorite": false
+  },
+  {
+    "id": "20",
+    "english": "surname Du",
+    "chinese": "都",
+    "pinyin": "Du1",
+    "isFavorite": false
+  },
+  {
+    "id": "21",
+    "english": "comma/phrase marked by pause",
+    "chinese": "读",
+    "pinyin": "dou4",
+    "isFavorite": false
+  },
+  {
+    "id": "22",
+    "english": "unworthy/to let down/I'm sorry/excuse me/pardon me/if you please/sorry? (please repeat)",
+    "chinese": "对不起",
+    "pinyin": "dui4 bu5 qi3",
+    "isFavorite": false
+  },
+  {
+    "id": "23",
+    "english": "many/much/often/a lot of/numerous/more/in excess/how (to what extent)/multi-/Taiwan pr. [duo2] when it means \"how\"",
+    "chinese": "多",
+    "pinyin": "duo1",
+    "isFavorite": false
+  },
+  {
+    "id": "24",
+    "english": "number/amount/somewhat",
+    "chinese": "多少",
+    "pinyin": "duo1 shao3",
+    "isFavorite": false
+  },
+  {
+    "id": "25",
+    "english": "son",
+    "chinese": "儿子",
+    "pinyin": "er2 zi5",
+    "isFavorite": false
+  },
+  {
+    "id": "26",
+    "english": "two/2/(Beijing dialect) stupid",
+    "chinese": "二",
+    "pinyin": "er4",
+    "isFavorite": false
+  },
+  {
+    "id": "27",
+    "english": "restaurant/hotel/CL:家[jia1],個|个[ge4]",
+    "chinese": "饭店",
+    "pinyin": "fan4 dian4",
+    "isFavorite": false
+  },
+  {
+    "id": "28",
+    "english": "airplane/CL:架[jia4]",
+    "chinese": "飞机",
+    "pinyin": "fei1 ji1",
+    "isFavorite": false
+  },
+  {
+    "id": "29",
+    "english": "minute",
+    "chinese": "分钟",
+    "pinyin": "fen1 zhong1",
+    "isFavorite": false
+  },
+  {
+    "id": "30",
+    "english": "happy/glad/willing (to do sth)/in a cheerful mood",
+    "chinese": "高兴",
+    "pinyin": "gao1 xing4",
+    "isFavorite": false
+  },
+  {
+    "id": "31",
+    "english": "individual/this/that/size/classifier for people or objects in general",
+    "chinese": "个",
+    "pinyin": "ge4",
+    "isFavorite": false
+  },
+  {
+    "id": "32",
+    "english": "to work/(of a machine) to operate/job/work/task/CL:個|个[ge4],份[fen4],項|项[xiang4]",
+    "chinese": "工作",
+    "pinyin": "gong1 zuo4",
+    "isFavorite": false
+  },
+  {
+    "id": "33",
+    "english": "dog/CL:隻|只[zhi1],條|条[tiao2]",
+    "chinese": "狗",
+    "pinyin": "gou3",
+    "isFavorite": false
+  },
+  {
+    "id": "34",
+    "english": "Chinese language/CL:門|门[men2]",
+    "chinese": "汉语",
+    "pinyin": "Han4 yu3",
+    "isFavorite": false
+  },
+  {
+    "id": "35",
+    "english": "good/well/proper/good to/easy to/very/so/(suffix indicating completion or readiness)/(of two people) close/on intimate terms/(after a personal pronoun) hello",
+    "chinese": "好",
+    "pinyin": "hao3",
+    "isFavorite": false
+  },
+  {
+    "id": "36",
+    "english": "roar/cry/CL:個|个[ge4]",
+    "chinese": "号",
+    "pinyin": "hao2",
+    "isFavorite": false
+  },
+  {
+    "id": "37",
+    "english": "to drink/My goodness!",
+    "chinese": "喝",
+    "pinyin": "he1",
+    "isFavorite": false
+  },
+  {
+    "id": "38",
+    "english": "old variant of 和[he2]",
+    "chinese": "和",
+    "pinyin": "he2",
+    "isFavorite": false
+  },
+  {
+    "id": "39",
+    "english": "(adverb of degree)/quite/very/awfully",
+    "chinese": "很",
+    "pinyin": "hen3",
+    "isFavorite": false
+  },
+  {
+    "id": "40",
+    "english": "rear/back/behind/later/afterwards/also pr. [hou4 mian5]",
+    "chinese": "后面",
+    "pinyin": "hou4 mian4",
+    "isFavorite": false
+  },
+  {
+    "id": "41",
+    "english": "to circle/to go back/to turn around/to answer/to return/to revolve/Hui ethnic group (Chinese Muslims)/time/classifier for acts of a play/section or chapter (of a classic book)",
+    "chinese": "回",
+    "pinyin": "hui2",
+    "isFavorite": false
+  },
+  {
+    "id": "42",
+    "english": "can/to be possible/to be able to/will/to be likely to/to be sure to/to assemble/to meet/to gather/to see/union/group/association/CL:個|个[ge4]/a moment (Taiwan pr. for this sense is [hui3])",
+    "chinese": "会",
+    "pinyin": "hui4",
+    "isFavorite": false
+  },
+  {
+    "id": "43",
+    "english": "small table",
+    "chinese": "几",
+    "pinyin": "ji1",
+    "isFavorite": false
+  },
+  {
+    "id": "44",
+    "english": "see 傢伙|家伙[jia1 huo5]",
+    "chinese": "家",
+    "pinyin": "jia1",
+    "isFavorite": false
+  },
+  {
+    "id": "45",
+    "english": "to shout/to call/to order/to ask/to be called/by (indicates agent in the passive mood)",
+    "chinese": "叫",
+    "pinyin": "jiao4",
+    "isFavorite": false
+  },
+  {
+    "id": "46",
+    "english": "today/at the present/now",
+    "chinese": "今天",
+    "pinyin": "jin1 tian1",
+    "isFavorite": false
+  },
+  {
+    "id": "47",
+    "english": "nine/9",
+    "chinese": "九",
+    "pinyin": "jiu3",
+    "isFavorite": false
+  },
+  {
+    "id": "48",
+    "english": "to open/to start/to turn on/to boil/to write out (a prescription, check, invoice etc)/to operate (a vehicle)/carat (gold)/abbr. for Kelvin, 開爾文|开尔文[Kai1 er3 wen2]/abbr. for 開本|开本[kai1 ben3], book format",
+    "chinese": "开",
+    "pinyin": "kai1",
+    "isFavorite": false
+  },
+  {
+    "id": "49",
+    "english": "to look after/to take care of/to watch/to guard",
+    "chinese": "看",
+    "pinyin": "kan1",
+    "isFavorite": false
+  },
+  {
+    "id": "50",
+    "english": "to see/to catch sight of",
+    "chinese": "看见",
+    "pinyin": "kan4 jian4",
+    "isFavorite": false
+  },
+  {
+    "id": "51",
+    "english": "lump (of earth)/chunk/piece/classifier for pieces of cloth, cake, soap etc/(coll.) classifier for money and currency units",
+    "chinese": "块",
+    "pinyin": "kuai4",
+    "isFavorite": false
+  },
+  {
+    "id": "52",
+    "english": "to come/to arrive/to come round/ever since/next",
+    "chinese": "来",
+    "pinyin": "lai2",
+    "isFavorite": false
+  },
+  {
+    "id": "53",
+    "english": "teacher/CL:個|个[ge4],位[wei4]",
+    "chinese": "老师",
+    "pinyin": "lao3 shi1",
+    "isFavorite": false
+  },
+  {
+    "id": "54",
+    "english": "(completed action marker)/(modal particle indicating change of state, situation now)/(modal particle intensifying preceding clause)",
+    "chinese": "了",
+    "pinyin": "le5",
+    "isFavorite": false
+  },
+  {
+    "id": "55",
+    "english": "surname Leng",
+    "chinese": "冷",
+    "pinyin": "Leng3",
+    "isFavorite": false
+  },
+  {
+    "id": "56",
+    "english": "variant of 裡|里[li3]",
+    "chinese": "里",
+    "pinyin": "li3",
+    "isFavorite": false
+  },
+  {
+    "id": "57",
+    "english": "six/6",
+    "chinese": "六",
+    "pinyin": "liu4",
+    "isFavorite": false
+  },
+  {
+    "id": "58",
+    "english": "mama/mommy/mother/CL:個|个[ge4],位[wei4]",
+    "chinese": "妈妈",
+    "pinyin": "ma1 ma5",
+    "isFavorite": false
+  },
+  {
+    "id": "59",
+    "english": "see 嗎啡|吗啡, morphine",
+    "chinese": "吗",
+    "pinyin": "ma3",
+    "isFavorite": false
+  },
+  {
+    "id": "60",
+    "english": "to buy/to purchase",
+    "chinese": "买",
+    "pinyin": "mai3",
+    "isFavorite": false
+  },
+  {
+    "id": "61",
+    "english": "cat/CL:隻|只[zhi1]/(dialect) to hide oneself/(coll.) modem",
+    "chinese": "猫",
+    "pinyin": "mao1",
+    "isFavorite": false
+  },
+  {
+    "id": "62",
+    "english": "it doesn't matter",
+    "chinese": "没关系",
+    "pinyin": "mei2 guan1 xi5",
+    "isFavorite": false
+  },
+  {
+    "id": "63",
+    "english": "haven't/hasn't/doesn't exist/to not have/to not be",
+    "chinese": "没有",
+    "pinyin": "mei2 you3",
+    "isFavorite": false
+  },
+  {
+    "id": "64",
+    "english": "(cooked) rice",
+    "chinese": "米饭",
+    "pinyin": "mi3 fan4",
+    "isFavorite": false
+  },
+  {
+    "id": "65",
+    "english": "name (of a person or thing)/CL:個|个[ge4]",
+    "chinese": "名字",
+    "pinyin": "ming2 zi5",
+    "isFavorite": false
+  },
+  {
+    "id": "66",
+    "english": "tomorrow",
+    "chinese": "明天",
+    "pinyin": "ming2 tian1",
+    "isFavorite": false
+  },
+  {
+    "id": "67",
+    "english": "how/which",
+    "chinese": "哪",
+    "pinyin": "na3",
+    "isFavorite": false
+  },
+  {
+    "id": "68",
+    "english": "where?/wherever/anywhere",
+    "chinese": "哪儿",
+    "pinyin": "na3 r5",
+    "isFavorite": false
+  },
+  {
+    "id": "69",
+    "english": "surname Na",
+    "chinese": "那",
+    "pinyin": "Na1",
+    "isFavorite": false
+  },
+  {
+    "id": "70",
+    "english": "particle indicating that a previously asked question is to be applied to the preceding word (\"What about ...?\", \"And ...?\")/particle for inquiring about location (\"Where is ...?\")/particle signaling a pause, to emphasize the preceding words and allow the listener time to take them on board (\"ok?\", \"are you with me?\")/(at the end of a declarative sentence) particle indicating continuation of a state or action/particle indicating strong affirmation",
+    "chinese": "呢",
+    "pinyin": "ne5",
+    "isFavorite": false
+  },
+  {
+    "id": "71",
+    "english": "surname Neng",
+    "chinese": "能",
+    "pinyin": "Neng2",
+    "isFavorite": false
+  },
+  {
+    "id": "72",
+    "english": "you (informal, as opposed to courteous 您[nin2])",
+    "chinese": "你",
+    "pinyin": "ni3",
+    "isFavorite": false
+  },
+  {
+    "id": "73",
+    "english": "surname Nian",
+    "chinese": "年",
+    "pinyin": "Nian2",
+    "isFavorite": false
+  },
+  {
+    "id": "74",
+    "english": "daughter",
+    "chinese": "女儿",
+    "pinyin": "nu:3 er2",
+    "isFavorite": false
+  },
+  {
+    "id": "75",
+    "english": "friend/CL:個|个[ge4],位[wei4]",
+    "chinese": "朋友",
+    "pinyin": "peng2 you5",
+    "isFavorite": false
+  },
+  {
+    "id": "76",
+    "english": "pretty/beautiful",
+    "chinese": "漂亮",
+    "pinyin": "piao4 liang5",
+    "isFavorite": false
+  },
+  {
+    "id": "77",
+    "english": "apple/CL:個|个[ge4],顆|颗[ke1]",
+    "chinese": "苹果",
+    "pinyin": "ping2 guo3",
+    "isFavorite": false
+  },
+  {
+    "id": "78",
+    "english": "seven/7",
+    "chinese": "七",
+    "pinyin": "qi1",
+    "isFavorite": false
+  },
+  {
+    "id": "79",
+    "english": "ahead/in front/preceding/above/also pr. [qian2 mian5]",
+    "chinese": "前面",
+    "pinyin": "qian2 mian4",
+    "isFavorite": false
+  },
+  {
+    "id": "80",
+    "english": "surname Qian",
+    "chinese": "钱",
+    "pinyin": "Qian2",
+    "isFavorite": false
+  },
+  {
+    "id": "81",
+    "english": "to ask/to invite/please (do sth)/to treat (to a meal etc)/to request",
+    "chinese": "请",
+    "pinyin": "qing3",
+    "isFavorite": false
+  },
+  {
+    "id": "82",
+    "english": "to go/to go to (a place)/(of a time etc) last/just passed/to send/to remove/to get rid of/to reduce/to be apart from in space or time/to die (euphemism)/to play (a part)/(when used either before or after a verb) to go in order to do sth/(after a verb of motion indicates movement away from the speaker)/(used after certain verbs to indicate detachment or separation)",
+    "chinese": "去",
+    "pinyin": "qu4",
+    "isFavorite": false
+  },
+  {
+    "id": "83",
+    "english": "to warm up/to heat up/hot (of weather)/heat/fervent",
+    "chinese": "热",
+    "pinyin": "re4",
+    "isFavorite": false
+  },
+  {
+    "id": "84",
+    "english": "man/person/people/CL:個|个[ge4],位[wei4]",
+    "chinese": "人",
+    "pinyin": "ren2",
+    "isFavorite": false
+  },
+  {
+    "id": "85",
+    "english": "to know/to recognize/to be familiar with/to get acquainted with sb/knowledge/understanding/awareness/cognition",
+    "chinese": "认识",
+    "pinyin": "ren4 shi5",
+    "isFavorite": false
+  },
+  {
+    "id": "86",
+    "english": "surname San",
+    "chinese": "三",
+    "pinyin": "San1",
+    "isFavorite": false
+  },
+  {
+    "id": "87",
+    "english": "store/shop/CL:家[jia1],個|个[ge4]",
+    "chinese": "商店",
+    "pinyin": "shang1 dian4",
+    "isFavorite": false
+  },
+  {
+    "id": "88",
+    "english": "see 上聲|上声[shang3 sheng1]",
+    "chinese": "上",
+    "pinyin": "shang3",
+    "isFavorite": false
+  },
+  {
+    "id": "89",
+    "english": "morning/CL:個|个[ge4]",
+    "chinese": "上午",
+    "pinyin": "shang4 wu3",
+    "isFavorite": false
+  },
+  {
+    "id": "90",
+    "english": "few/less/to lack/to be missing/to stop (doing sth)/seldom",
+    "chinese": "少",
+    "pinyin": "shao3",
+    "isFavorite": false
+  },
+  {
+    "id": "91",
+    "english": "who/also pr. [shui2]",
+    "chinese": "谁",
+    "pinyin": "shei2",
+    "isFavorite": false
+  },
+  {
+    "id": "92",
+    "english": "what?/something/anything",
+    "chinese": "什么",
+    "pinyin": "shen2 me5",
+    "isFavorite": false
+  },
+  {
+    "id": "93",
+    "english": "ten/10",
+    "chinese": "十",
+    "pinyin": "shi2",
+    "isFavorite": false
+  },
+  {
+    "id": "94",
+    "english": "time/length of time/moment/period",
+    "chinese": "时候",
+    "pinyin": "shi2 hou5",
+    "isFavorite": false
+  },
+  {
+    "id": "95",
+    "english": "is/are/am/yes/to be",
+    "chinese": "是",
+    "pinyin": "shi4",
+    "isFavorite": false
+  },
+  {
+    "id": "96",
+    "english": "abbr. for 書經|书经[Shu1 jing1]",
+    "chinese": "书",
+    "pinyin": "Shu1",
+    "isFavorite": false
+  },
+  {
+    "id": "97",
+    "english": "surname Shui",
+    "chinese": "水",
+    "pinyin": "Shui3",
+    "isFavorite": false
+  },
+  {
+    "id": "98",
+    "english": "fruit/CL:個|个[ge4]",
+    "chinese": "水果",
+    "pinyin": "shui3 guo3",
+    "isFavorite": false
+  },
+  {
+    "id": "99",
+    "english": "to go to bed/to sleep",
+    "chinese": "睡觉",
+    "pinyin": "shui4 jiao4",
+    "isFavorite": false
+  },
+  {
+    "id": "100",
+    "english": "to persuade",
+    "chinese": "说",
+    "pinyin": "shui4",
+    "isFavorite": false
+  },
+  {
+    "id": "101",
+    "english": "four/4",
+    "chinese": "四",
+    "pinyin": "si4",
+    "isFavorite": false
+  },
+  {
+    "id": "102",
+    "english": "variant of 歲|岁[sui4], year/years old",
+    "chinese": "岁",
+    "pinyin": "sui4",
+    "isFavorite": false
+  },
+  {
+    "id": "103",
+    "english": "he or him/(used for either sex when the sex is unknown or unimportant)/(used before sb's name for emphasis)/(used as a meaningless mock object)/other/another",
+    "chinese": "他",
+    "pinyin": "ta1",
+    "isFavorite": false
+  },
+  {
+    "id": "104",
+    "english": "she",
+    "chinese": "她",
+    "pinyin": "ta1",
+    "isFavorite": false
+  },
+  {
+    "id": "105",
+    "english": "highest/greatest/too (much)/very/extremely",
+    "chinese": "太",
+    "pinyin": "tai4",
+    "isFavorite": false
+  },
+  {
+    "id": "106",
+    "english": "weather",
+    "chinese": "天气",
+    "pinyin": "tian1 qi4",
+    "isFavorite": false
+  },
+  {
+    "id": "107",
+    "english": "smile (archaic)",
+    "chinese": "听",
+    "pinyin": "yin3",
+    "isFavorite": false
+  },
+  {
+    "id": "108",
+    "english": "to study at the same school/fellow student/classmate/CL:位[wei4],個|个[ge4]",
+    "chinese": "同学",
+    "pinyin": "tong2 xue2",
+    "isFavorite": false
+  },
+  {
+    "id": "109",
+    "english": "hello (when answering the phone)",
+    "chinese": "喂",
+    "pinyin": "wei2",
+    "isFavorite": false
+  },
+  {
+    "id": "110",
+    "english": "I/me/my",
+    "chinese": "我",
+    "pinyin": "wo3",
+    "isFavorite": false
+  },
+  {
+    "id": "111",
+    "english": "we/us/ourselves/our",
+    "chinese": "我们",
+    "pinyin": "wo3 men5",
+    "isFavorite": false
+  },
+  {
+    "id": "112",
+    "english": "five/5",
+    "chinese": "五",
+    "pinyin": "wu3",
+    "isFavorite": false
+  },
+  {
+    "id": "113",
+    "english": "to like/to be fond of",
+    "chinese": "喜欢",
+    "pinyin": "xi3 huan5",
+    "isFavorite": false
+  },
+  {
+    "id": "114",
+    "english": "down/downwards/below/lower/later/next (week etc)/second (of two parts)/to decline/to go down/to arrive at (a decision, conclusion etc)/measure word to show the frequency of an action",
+    "chinese": "下",
+    "pinyin": "xia4",
+    "isFavorite": false
+  },
+  {
+    "id": "115",
+    "english": "afternoon/CL:個|个[ge4]/p.m.",
+    "chinese": "下午",
+    "pinyin": "xia4 wu3",
+    "isFavorite": false
+  },
+  {
+    "id": "116",
+    "english": "to rain",
+    "chinese": "下雨",
+    "pinyin": "xia4 yu3",
+    "isFavorite": false
+  },
+  {
+    "id": "117",
+    "english": "Mister (Mr.)",
+    "chinese": "先生",
+    "pinyin": "Xian1 sheng5",
+    "isFavorite": false
+  },
+  {
+    "id": "118",
+    "english": "now/at present/at the moment/modern/current/nowadays",
+    "chinese": "现在",
+    "pinyin": "xian4 zai4",
+    "isFavorite": false
+  },
+  {
+    "id": "119",
+    "english": "to think/to believe/to suppose/to wish/to want/to miss (feel wistful about the absence of sb or sth)",
+    "chinese": "想",
+    "pinyin": "xiang3",
+    "isFavorite": false
+  },
+  {
+    "id": "120",
+    "english": "small/tiny/few/young",
+    "chinese": "小",
+    "pinyin": "xiao3",
+    "isFavorite": false
+  },
+  {
+    "id": "121",
+    "english": "young lady/miss/(slang) prostitute/CL:個|个[ge4],位[wei4]",
+    "chinese": "小姐",
+    "pinyin": "xiao3 jie5",
+    "isFavorite": false
+  },
+  {
+    "id": "122",
+    "english": "classifier indicating a small amount or small number greater than 1: some, a few, several",
+    "chinese": "些",
+    "pinyin": "xie1",
+    "isFavorite": false
+  },
+  {
+    "id": "123",
+    "english": "to write",
+    "chinese": "写",
+    "pinyin": "xie3",
+    "isFavorite": false
+  },
+  {
+    "id": "124",
+    "english": "to thank/thanks/thank you",
+    "chinese": "谢谢",
+    "pinyin": "xie4 xie5",
+    "isFavorite": false
+  },
+  {
+    "id": "125",
+    "english": "week/CL:個|个[ge4]/day of the week/Sunday",
+    "chinese": "星期",
+    "pinyin": "xing1 qi1",
+    "isFavorite": false
+  },
+  {
+    "id": "126",
+    "english": "student/schoolchild",
+    "chinese": "学生",
+    "pinyin": "xue2 sheng5",
+    "isFavorite": false
+  },
+  {
+    "id": "127",
+    "english": "to learn/to study",
+    "chinese": "学习",
+    "pinyin": "xue2 xi2",
+    "isFavorite": false
+  },
+  {
+    "id": "128",
+    "english": "school/CL:所[suo3]",
+    "chinese": "学校",
+    "pinyin": "xue2 xiao4",
+    "isFavorite": false
+  },
+  {
+    "id": "129",
+    "english": "one/1/single/a (article)/as soon as/entire/whole/all/throughout/\"one\" radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater clarity when spelling out numbers digit by digit",
+    "chinese": "一",
+    "pinyin": "yi1",
+    "isFavorite": false
+  },
+  {
+    "id": "130",
+    "english": "erhua variant of 一點|一点[yi1 dian3]",
+    "chinese": "一点儿",
+    "pinyin": "yi1 dian3 r5",
+    "isFavorite": false
+  },
+  {
+    "id": "131",
+    "english": "clothes/CL:件[jian4],套[tao4]",
+    "chinese": "衣服",
+    "pinyin": "yi1 fu5",
+    "isFavorite": false
+  },
+  {
+    "id": "132",
+    "english": "doctor/CL:個|个[ge4],位[wei4],名[ming2]",
+    "chinese": "医生",
+    "pinyin": "yi1 sheng1",
+    "isFavorite": false
+  },
+  {
+    "id": "133",
+    "english": "hospital/CL:所[suo3],家[jia1],座[zuo4]",
+    "chinese": "医院",
+    "pinyin": "yi1 yuan4",
+    "isFavorite": false
+  },
+  {
+    "id": "134",
+    "english": "chair/CL:把[ba3],套[tao4]",
+    "chinese": "椅子",
+    "pinyin": "yi3 zi5",
+    "isFavorite": false
+  },
+  {
+    "id": "135",
+    "english": "to have/there is/there are/to exist/to be",
+    "chinese": "有",
+    "pinyin": "you3",
+    "isFavorite": false
+  },
+  {
+    "id": "136",
+    "english": "moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]",
+    "chinese": "月",
+    "pinyin": "yue4",
+    "isFavorite": false
+  },
+  {
+    "id": "137",
+    "english": "goodbye/see you again later",
+    "chinese": "再见",
+    "pinyin": "zai4 jian4",
+    "isFavorite": false
+  },
+  {
+    "id": "138",
+    "english": "(located) at/(to be) in/to exist/in the middle of doing sth/(indicating an action in progress)",
+    "chinese": "在",
+    "pinyin": "zai4",
+    "isFavorite": false
+  },
+  {
+    "id": "139",
+    "english": "how?/what?/why?",
+    "chinese": "怎么",
+    "pinyin": "zen3 me5",
+    "isFavorite": false
+  },
+  {
+    "id": "140",
+    "english": "how?/how about?/how was it?/how are things?",
+    "chinese": "怎么样",
+    "pinyin": "zen3 me5 yang4",
+    "isFavorite": false
+  },
+  {
+    "id": "141",
+    "english": "this/these/(commonly pr. [zhei4] before a classifier, esp. in Beijing)",
+    "chinese": "这",
+    "pinyin": "zhe4",
+    "isFavorite": false
+  },
+  {
+    "id": "142",
+    "english": "China",
+    "chinese": "中国",
+    "pinyin": "Zhong1 guo2",
+    "isFavorite": false
+  },
+  {
+    "id": "143",
+    "english": "noon/midday/CL:個|个[ge4]",
+    "chinese": "中午",
+    "pinyin": "zhong1 wu3",
+    "isFavorite": false
+  },
+  {
+    "id": "144",
+    "english": "to live/to dwell/to stay/to reside/to stop/(suffix indicating firmness, steadiness, or coming to a halt)",
+    "chinese": "住",
+    "pinyin": "zhu4",
+    "isFavorite": false
+  },
+  {
+    "id": "145",
+    "english": "table/desk/CL:張|张[zhang1],套[tao4]",
+    "chinese": "桌子",
+    "pinyin": "zhuo1 zi5",
+    "isFavorite": false
+  },
+  {
+    "id": "146",
+    "english": "letter/symbol/character/word/CL:個|个[ge4]/courtesy or style name traditionally given to males aged 20 in dynastic China",
+    "chinese": "字",
+    "pinyin": "zi4",
+    "isFavorite": false
+  },
+  {
+    "id": "147",
+    "english": "yesterday",
+    "chinese": "昨天",
+    "pinyin": "zuo2 tian1",
+    "isFavorite": false
+  },
+  {
+    "id": "148",
+    "english": "surname Zuo",
+    "chinese": "坐",
+    "pinyin": "Zuo4",
+    "isFavorite": false
+  },
+  {
+    "id": "149",
+    "english": "to do/to make/to produce/to write/to compose/to act as/to engage in/to hold (a party)/to be/to become/to function (in some capacity)/to serve as/to be used for/to form (a bond or relationship)/to pretend/to feign/to act a part/to put on appearance",
+    "chinese": "做",
+    "pinyin": "zuo4",
+    "isFavorite": false
+  }
+]

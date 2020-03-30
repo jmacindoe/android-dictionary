@@ -16,9 +16,12 @@
       "post-commit": "npm run check"
     }
   },
-  "dependencies": {},
+  "dependencies": {
+    "cedict-lookup": "0.0.2"
+  },
   "devDependencies": {
     "@types/jest": "^24.0.18",
+    "@types/node": "^13.9.5",
     "jest": "^24.9.0",
     "prettier": "^1.18.2",
     "ts-jest": "^24.1.0",

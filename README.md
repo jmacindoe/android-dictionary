@@ -8,4 +8,4 @@ Technologies used:
 - Kotlin coroutines
 - Koin
 
-
+The dictionary entries are taken from CEDICT which is licensed under CC-BY-SA. Full details at https://www.mdbg.net/chinese/dictionary?page=cedict

@@ -6,8 +6,8 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "words")
 data class Word(
     @PrimaryKey val id: String,
-    val zh: String,
+    val english: String,
+    val chinese: String,
     val pinyin: String,
-    val en: String,
     val isFavorite: Boolean
 )
