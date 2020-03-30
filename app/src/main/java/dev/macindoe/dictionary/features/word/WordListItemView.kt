@@ -14,8 +14,10 @@ class WordListItemView(context: Context): FrameLayout(context) {
     /// If [favoritesCallback] is specified, a button to unfavorite words is shown
     fun bind(word: Word, favoritesCallback: FavoritesCallback?) {
         zh_tv.text = word.zh
-        zh_tv.setOnClickListener {
-            favoritesCallback?.unfavoriteWord(word)
+        if (favoritesCallback != null) {
+            zh_tv.setOnClickListener {
+                favoritesCallback.unfavoriteWord(word)
+            }
         }
     }
 }

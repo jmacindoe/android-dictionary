@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/definitionFragment"
-        android:name="dev.macindoe.dictionary.DefinitionFragment"
+        android:name="dev.macindoe.dictionary.features.definition.DefinitionFragment"
         android:label="fragment_definition"
         tools:layout="@layout/fragment_definition" >
         <argument

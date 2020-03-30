@@ -1,6 +1,7 @@
 package dev.macindoe.dictionary.app
 
 import dev.macindoe.dictionary.data.AppDatabase
+import dev.macindoe.dictionary.features.definition.DefinitionViewModel
 import dev.macindoe.dictionary.features.favorites.FavoritesViewModel
 import dev.macindoe.dictionary.features.search.SearchViewModel
 import org.koin.android.viewmodel.dsl.viewModel
@@ -12,4 +13,6 @@ val appModule = module {
 
     viewModel { SearchViewModel(get()) }
     viewModel { FavoritesViewModel(get()) }
+
+    viewModel { (wordId: String) -> DefinitionViewModel(wordId, get()) }
 }
