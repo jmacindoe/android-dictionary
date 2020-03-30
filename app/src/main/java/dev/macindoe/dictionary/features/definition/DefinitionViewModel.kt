@@ -4,14 +4,13 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dev.macindoe.dictionary.data.Word
-import dev.macindoe.dictionary.data.WordDao
 import kotlinx.coroutines.launch
 
 class DefinitionViewModel(
     private val wordId: String,
-    private val wordDao: WordDao
+    private val repository: DefinitionRepository
 ) : ViewModel() {
-    val word: LiveData<Word> = wordDao.getWord(wordId)
+    val word: LiveData<Word> = repository.getWord(wordId)
 
     fun toggleFavorite() {
         val isFavorite = word.value?.isFavorite
@@ -23,9 +22,9 @@ class DefinitionViewModel(
     private fun updateFavorite(newValue: Boolean) {
         viewModelScope.launch {
             if (newValue) {
-                wordDao.favoriteWord(wordId)
+                repository.favoriteWord(wordId)
             } else {
-                wordDao.unfavoriteWord(wordId)
+                repository.unfavoriteWord(wordId)
             }
         }
 

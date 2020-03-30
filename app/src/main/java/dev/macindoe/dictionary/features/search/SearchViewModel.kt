@@ -2,16 +2,15 @@ package dev.macindoe.dictionary.features.search
 
 import androidx.lifecycle.*
 import dev.macindoe.dictionary.data.Word
-import dev.macindoe.dictionary.data.WordDao
 
 class SearchViewModel(
-    private val wordDao: WordDao
+    private val repository: SearchRepository
 ) : ViewModel() {
     private val searchQuery = MutableLiveData("")
 
     fun searchResults(): LiveData<List<Word>> {
         return searchQuery
-            .switchMap { wordDao.search(it) }
+            .switchMap { repository.search(it) }
     }
 
     fun updateSearchQuery(query: String) {
