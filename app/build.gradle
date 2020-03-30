@@ -42,6 +42,7 @@ dependencies {
     def lifecycle_version = "2.2.0"
     def koin_version = "2.1.5"
     def work_manager_version = "2.3.4"
+    def gson_version = "2.8.6"
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
@@ -83,4 +84,7 @@ dependencies {
 
     // Work Manager
     implementation "androidx.work:work-runtime-ktx:$work_manager_version"
+
+    // Gson
+    implementation "com.google.code.gson:gson:$gson_version"
 }
