@@ -25,17 +25,15 @@ class SearchFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        nav_button.setOnClickListener {
-            val action = SearchFragmentDirections.actionHomeFragmentToDefinitionFragment("the-id")
-            findNavController().navigate(action)
-        }
-
         query_et.addTextChangedListener {  text ->
             viewModel.updateSearchQuery(text.toString())
         }
 
+        val adapter = SearchAdapter()
+        result_list.adapter = adapter
+
         viewModel.searchResults().observe(viewLifecycleOwner) { data ->
-            result_tv.text = "Got results: " + data.map { it.pinyin }.joinToString()
+            adapter.submitList(data)
         }
     }
 }
