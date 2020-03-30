@@ -3,7 +3,7 @@ package dev.macindoe.dictionary.features.favorites
 import androidx.lifecycle.*
 import dev.macindoe.dictionary.data.Word
 import dev.macindoe.dictionary.data.WordDao
-import dev.macindoe.dictionary.features.word.FavoritesCallback
+import dev.macindoe.dictionary.features.word_list.FavoritesCallback
 import kotlinx.coroutines.launch
 
 class FavoritesViewModel(

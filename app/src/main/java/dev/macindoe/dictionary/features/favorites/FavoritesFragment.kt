@@ -7,8 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.observe
 import dev.macindoe.dictionary.R
-import dev.macindoe.dictionary.features.word.FavoritesCallback
-import dev.macindoe.dictionary.features.word.WordListAdapter
+import dev.macindoe.dictionary.features.word_list.WordListAdapter
 import kotlinx.android.synthetic.main.fragment_favorites.*
 import org.koin.android.viewmodel.ext.android.viewModel
 

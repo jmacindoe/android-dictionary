@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.core.widget.addTextChangedListener
 import androidx.lifecycle.observe
 import dev.macindoe.dictionary.R
-import dev.macindoe.dictionary.features.word.WordListAdapter
+import dev.macindoe.dictionary.features.word_list.WordListAdapter
 import kotlinx.android.synthetic.main.fragment_search.*
 import org.koin.android.viewmodel.ext.android.viewModel
 

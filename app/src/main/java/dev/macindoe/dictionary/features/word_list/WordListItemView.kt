@@ -1,4 +1,4 @@
-package dev.macindoe.dictionary.features.word
+package dev.macindoe.dictionary.features.word_list
 
 import android.content.Context
 import android.widget.FrameLayout
