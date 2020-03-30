@@ -40,7 +40,8 @@ dependencies {
     def nav_version = "2.3.0-alpha04"
     def room_version = "2.2.5"
     def lifecycle_version = "2.2.0"
-    def koin_version= "2.1.5"
+    def koin_version = "2.1.5"
+    def work_manager_version = "2.3.4"
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
@@ -79,4 +80,7 @@ dependencies {
     implementation "org.koin:koin-android-scope:$koin_version"
     implementation "org.koin:koin-android-viewmodel:$koin_version"
     testImplementation "org.koin:koin-test:$koin_version"
+
+    // Work Manager
+    implementation "androidx.work:work-runtime-ktx:$work_manager_version"
 }

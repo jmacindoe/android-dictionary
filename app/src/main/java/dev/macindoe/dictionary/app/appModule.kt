@@ -11,7 +11,7 @@ import org.koin.android.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 
 val appModule = module {
-    single { AppDatabase.getInstance(get()) }
+    single { AppDatabase.buildDatabase(get()) }
     single { get<AppDatabase>().wordDao() }
     single { SearchRepository(get()) }
     single { FavoritesRepository(get()) }

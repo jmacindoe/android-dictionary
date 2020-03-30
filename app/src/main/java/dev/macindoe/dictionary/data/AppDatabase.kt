@@ -5,7 +5,8 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
-import dev.macindoe.dictionary.utils.ioThread
+import androidx.work.OneTimeWorkRequestBuilder
+import androidx.work.WorkManager
 
 /**
  * The Room database for this app
@@ -17,28 +18,13 @@ abstract class AppDatabase : RoomDatabase() {
     companion object {
         private val DATABASE_NAME = "dict-db"
 
-        @Volatile private var instance: AppDatabase? = null
-
-        fun getInstance(context: Context): AppDatabase {
-            return instance ?: synchronized(this) {
-                instance ?: buildDatabase(context).also { instance = it }
-            }
-        }
-
-        private fun buildDatabase(context: Context): AppDatabase {
+        fun buildDatabase(context: Context): AppDatabase {
             return Room.databaseBuilder(context, AppDatabase::class.java, DATABASE_NAME)
                 .addCallback(object : RoomDatabase.Callback() {
                     override fun onCreate(db: SupportSQLiteDatabase) {
                         super.onCreate(db)
-                        ioThread {
-                            getInstance(context).wordDao()
-                                .insertAll(
-                                    listOf(
-                                        Word("1", "zh1", "pinyin1", "en1", false),
-                                        Word("2", "zh2", "pinyin2", "en2", true)
-                                    )
-                                )
-                        }
+                        val request = OneTimeWorkRequestBuilder<InitialDataImportWorker>().build()
+                        WorkManager.getInstance(context).enqueue(request)
                     }
                 })
                 .build()

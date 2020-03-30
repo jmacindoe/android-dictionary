@@ -4,6 +4,7 @@ Technologies used:
 - Jetpack Navigation
 - Jetpack Lifecycle and ViewModel
 - Room
+- Work Manager
 - Kotlin coroutines
 - Koin
 
