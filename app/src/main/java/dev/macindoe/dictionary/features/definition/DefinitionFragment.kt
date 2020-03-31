@@ -31,7 +31,8 @@ class DefinitionFragment : Fragment() {
         }
 
         viewModel.word.observe(viewLifecycleOwner) { word ->
-            definition_tv.text = word.english
+            chinese_tv.text = "${word.chinese} (${word.pinyin})"
+            english_tv.text = word.english
             val favoriteStringId = if (word.isFavorite) R.string.action_unfavorite else R.string.action_favorite
             favorite_btn.setText(favoriteStringId)
         }

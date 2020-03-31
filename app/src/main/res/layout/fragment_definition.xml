@@ -7,8 +7,13 @@
     tools:context=".features.definition.DefinitionFragment">
 
     <TextView
-        android:id="@+id/definition_tv"
+        android:id="@+id/chinese_tv"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/english_tv"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <Button

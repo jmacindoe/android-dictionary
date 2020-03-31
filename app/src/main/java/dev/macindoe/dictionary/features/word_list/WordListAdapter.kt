@@ -15,7 +15,10 @@ class WordListAdapter(private val favoritesCallback: FavoritesCallback? = null) 
     SearchDiffCallback()
 ) {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        return ViewHolder(WordListItemView(parent.context), favoritesCallback)
+        val view = WordListItemView(parent.context)
+        val lp: RecyclerView.LayoutParams = RecyclerView.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)
+        view.setLayoutParams(lp);
+        return ViewHolder(view, favoritesCallback)
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {

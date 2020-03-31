@@ -1,6 +1,7 @@
 package dev.macindoe.dictionary.features.word_list
 
 import android.content.Context
+import android.view.View
 import android.widget.FrameLayout
 import dev.macindoe.dictionary.R
 import dev.macindoe.dictionary.data.Word
@@ -13,11 +14,17 @@ class WordListItemView(context: Context): FrameLayout(context) {
 
     /// If [favoritesCallback] is specified, a button to unfavorite words is shown
     fun bind(word: Word, favoritesCallback: FavoritesCallback?) {
-        zh_tv.text = word.chinese
+        chinese_tv.text = word.chinese
+        english_tv.text = word.english
+        pinyin_tv.text = word.pinyin
         if (favoritesCallback != null) {
-            zh_tv.setOnClickListener {
+            favorite_btn.visibility = View.VISIBLE
+            favorite_btn.setOnClickListener {
                 favoritesCallback.unfavoriteWord(word)
             }
+        } else {
+            favorite_btn.visibility = View.GONE
+            favorite_btn.setOnClickListener(null)
         }
     }
 }

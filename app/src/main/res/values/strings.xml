@@ -5,7 +5,9 @@
     <string name="tab_title_favorites">Favorites</string>
 
     <string name="search_empty">No matches</string>
-    <string name="favorites_empty">No favorite words! Press on the star to favorite words</string>
+    <string name="search_placeholder">Search by pinyin</string>
+
+    <string name="favorites_empty">No favorite words!</string>
 
     <string name="action_favorite">Favorite</string>
     <string name="action_unfavorite">Unfavorite</string>
